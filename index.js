@@ -1,4 +1,15 @@
 function isPalindrome(word) {
+  const arrayOfLetters = word.split('');
+  const reverseLetters = arrayOfLetters.reverse()
+  const reverseStrings = reverseLetters.join('')
+
+
+  if (word == reverseStrings){
+    return true
+  }else {
+    return false
+  }
+    
   // Write your algorithm here
 }
 
